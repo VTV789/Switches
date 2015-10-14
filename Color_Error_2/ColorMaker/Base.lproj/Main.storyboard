@@ -33,7 +33,7 @@
                                         <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="zZ7-a9-FSD">
+                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zZ7-a9-FSD">
                                         <rect key="frame" x="111" y="18" width="51" height="31"/>
                                         <animations/>
                                         <constraints>
@@ -60,7 +60,7 @@
                                         <color key="textColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="aoV-z2-sOS">
+                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aoV-z2-sOS">
                                         <rect key="frame" x="111" y="68" width="51" height="31"/>
                                         <animations/>
                                         <constraints>
@@ -68,7 +68,7 @@
                                             <constraint firstAttribute="height" constant="31" id="oNn-Wk-0EM"/>
                                         </constraints>
                                         <connections>
-                                            <action selector="changeColorComponent:" destination="vXZ-lx-hvc" eventType="valueChanged" id="XlZ-DC-CAm"/>
+                                            <action selector="changeColorComponent:" destination="vXZ-lx-hvc" eventType="valueChanged" id="PQM-Gv-2cP"/>
                                         </connections>
                                     </switch>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blue" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vfO-MJ-TIi">
@@ -84,12 +84,12 @@
                                         <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="mrj-g1-6nX">
+                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mrj-g1-6nX">
                                         <rect key="frame" x="111" y="119" width="51" height="31"/>
                                         <animations/>
                                         <color key="onTintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
-                                            <action selector="changeColorComponent:" destination="vXZ-lx-hvc" eventType="valueChanged" id="ovm-Cq-zS2"/>
+                                            <action selector="changeColorComponent:" destination="vXZ-lx-hvc" eventType="valueChanged" id="2yj-uG-B6u"/>
                                         </connections>
                                     </switch>
                                 </subviews>
@@ -147,7 +147,7 @@
                     <connections>
                         <outlet property="blueControl" destination="mrj-g1-6nX" id="Hte-pB-XGC"/>
                         <outlet property="colorView" destination="AjB-H9-6TC" id="Gt7-G8-GYq"/>
-                        <outlet property="greenControl" destination="aoV-z2-sOS" id="dZL-XS-tDm"/>
+                        <outlet property="greenControl" destination="aoV-z2-sOS" id="ueC-5Y-vVp"/>
                         <outlet property="redControl" destination="zZ7-a9-FSD" id="FJR-vG-dR3"/>
                     </connections>
                 </viewController>
