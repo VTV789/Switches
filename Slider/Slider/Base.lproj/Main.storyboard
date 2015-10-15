@@ -16,6 +16,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Red" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gJQ-Jx-veF">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="74" y="96" width="30" height="21"/>
+                                </variation>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blue" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AFN-kT-Nm0">
                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
                                 <animations/>
@@ -36,14 +46,6 @@
                                     <rect key="frame" x="75" y="132" width="47" height="21"/>
                                 </variation>
                             </label>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="juq-Qw-6Cb">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <animations/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="80" y="282" width="240" height="225"/>
-                                </variation>
-                            </view>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="mNT-Rh-0Bv">
                                 <rect key="frame" x="0.0" y="-15" width="118" height="31"/>
                                 <animations/>
@@ -65,42 +67,46 @@
                                     <rect key="frame" x="209" y="166" width="118" height="31"/>
                                 </variation>
                             </slider>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Red" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gJQ-Jx-veF">
-                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="juq-Qw-6Cb">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="74" y="96" width="30" height="21"/>
+                                    <rect key="frame" x="80" y="282" width="240" height="225"/>
                                 </variation>
-                            </label>
+                            </view>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
+                                <exclude reference="gJQ-Jx-veF"/>
                                 <exclude reference="AFN-kT-Nm0"/>
                                 <exclude reference="Zfx-ve-6MY"/>
-                                <exclude reference="juq-Qw-6Cb"/>
                                 <exclude reference="mNT-Rh-0Bv"/>
                                 <exclude reference="hYJ-7B-AiX"/>
                                 <exclude reference="mMp-VD-jsi"/>
-                                <exclude reference="gJQ-Jx-veF"/>
+                                <exclude reference="juq-Qw-6Cb"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
+                                <include reference="gJQ-Jx-veF"/>
                                 <include reference="AFN-kT-Nm0"/>
                                 <include reference="Zfx-ve-6MY"/>
-                                <include reference="juq-Qw-6Cb"/>
                                 <include reference="mNT-Rh-0Bv"/>
                                 <include reference="hYJ-7B-AiX"/>
                                 <include reference="mMp-VD-jsi"/>
-                                <include reference="gJQ-Jx-veF"/>
+                                <include reference="juq-Qw-6Cb"/>
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="blueController" destination="mMp-VD-jsi" id="v1E-OE-ueZ"/>
+                        <outlet property="colorView" destination="juq-Qw-6Cb" id="JRb-cG-Iio"/>
+                        <outlet property="greenController" destination="hYJ-7B-AiX" id="dwu-wv-VGV"/>
+                        <outlet property="redController" destination="mNT-Rh-0Bv" id="wje-oG-9jj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
