@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E94D56B3A6D147CFEF6DC94FD3416E1D7D1F1B0F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E94D56B3A6D147CFEF6DC94FD3416E1D7D1F1B0F" : 0,
+    "A82C66493D61DD88B672F62C8DC5B7DE881523DD" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "652A43E7-199E-492B-BBF2-AF09AE4CAAA5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E94D56B3A6D147CFEF6DC94FD3416E1D7D1F1B0F" : "ColorMaker_Sliders\/",
+    "A82C66493D61DD88B672F62C8DC5B7DE881523DD" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ColorMaker",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ColorMaker.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/VTV789\/Switches.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A82C66493D61DD88B672F62C8DC5B7DE881523DD"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/VTV789\/ColorMaker_Sliders.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E94D56B3A6D147CFEF6DC94FD3416E1D7D1F1B0F"
+    }
+  ]
+}
