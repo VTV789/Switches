@@ -50,7 +50,7 @@
                                 <rect key="frame" x="0.0" y="-15" width="118" height="31"/>
                                 <animations/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="209" y="92" width="118" height="31"/>
+                                    <rect key="frame" x="209" y="92" width="176" height="31"/>
                                 </variation>
                                 <connections>
                                     <action selector="changeColorCompontent:" destination="BYZ-38-t0r" eventType="valueChanged" id="Kqx-WC-kmJ"/>
@@ -60,7 +60,7 @@
                                 <rect key="frame" x="0.0" y="-15" width="118" height="31"/>
                                 <animations/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="209" y="130" width="118" height="31"/>
+                                    <rect key="frame" x="209" y="130" width="150" height="31"/>
                                 </variation>
                                 <connections>
                                     <action selector="changeColorCompontent:" destination="BYZ-38-t0r" eventType="valueChanged" id="czm-Qx-ujL"/>
@@ -79,8 +79,8 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="juq-Qw-6Cb">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <animations/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="80" y="282" width="240" height="225"/>
                                 </variation>
