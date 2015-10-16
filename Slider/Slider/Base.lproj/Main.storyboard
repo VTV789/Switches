@@ -52,6 +52,9 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="209" y="92" width="118" height="31"/>
                                 </variation>
+                                <connections>
+                                    <action selector="changeColorCompontent:" destination="BYZ-38-t0r" eventType="valueChanged" id="Kqx-WC-kmJ"/>
+                                </connections>
                             </slider>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="hYJ-7B-AiX">
                                 <rect key="frame" x="0.0" y="-15" width="118" height="31"/>
@@ -59,6 +62,9 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="209" y="130" width="118" height="31"/>
                                 </variation>
+                                <connections>
+                                    <action selector="changeColorCompontent:" destination="BYZ-38-t0r" eventType="valueChanged" id="czm-Qx-ujL"/>
+                                </connections>
                             </slider>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="mMp-VD-jsi">
                                 <rect key="frame" x="0.0" y="-15" width="118" height="31"/>
@@ -66,6 +72,9 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="209" y="166" width="118" height="31"/>
                                 </variation>
+                                <connections>
+                                    <action selector="changeColorCompontent:" destination="BYZ-38-t0r" eventType="valueChanged" id="pWD-X7-YxX"/>
+                                </connections>
                             </slider>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="juq-Qw-6Cb">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
@@ -103,7 +112,7 @@
                     </view>
                     <connections>
                         <outlet property="blueController" destination="mMp-VD-jsi" id="v1E-OE-ueZ"/>
-                        <outlet property="colorView" destination="juq-Qw-6Cb" id="JRb-cG-Iio"/>
+                        <outlet property="colorView" destination="juq-Qw-6Cb" id="Mot-MB-oFX"/>
                         <outlet property="greenController" destination="hYJ-7B-AiX" id="dwu-wv-VGV"/>
                         <outlet property="redController" destination="mNT-Rh-0Bv" id="wje-oG-9jj"/>
                     </connections>
